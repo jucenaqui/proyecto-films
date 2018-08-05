@@ -1,10 +1,11 @@
 "use strict"
 
+var config = require('./config');
 var mongoose = require("mongoose");
 var app = require('./app');
-var puerto = process.env.Port || 4000;
+var puerto = process.env.Port || config.puerto;
 
-mongoose.connect("mongodb://sa:sa123.@ds263520.mlab.com:63520/storeprueba", (err, response) => {
+mongoose.connect("mongodb://sa:julio123@ds213612.mlab.com:13612/proyecto-films", (err, response) => {
     if (err) {
         throw new Error("fallo la coneccion " + err);
     } else {
