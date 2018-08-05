@@ -1,7 +1,6 @@
 'use strict'
 
 var express = require('express');
-var config = require('../config');
 var peopleController = require('../controllers/people'); 
 
 var route = express.Router();
