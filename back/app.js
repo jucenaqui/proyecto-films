@@ -7,6 +7,7 @@ var app = express();
 
 // se cargan las rutas
 var route_films = require('./routes/films');
+var route_people = require('./routes/people');
 
 app.use(bodyParser.urlencoded({
     extended: false
@@ -25,6 +26,7 @@ app.use((req, res, next) => {
 
 // rutas
 app.use(route_films);
+app.use(route_people);
 
 
 module.exports = app;
