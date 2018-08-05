@@ -1,12 +1,8 @@
 # Proyecto-Films
 
-angular v6.0.3
 node v8.11.3
 
 1- entrar en carpeta back con tu consola
-    * npm install
-    * npm start
-2- entrar en carpeta client con otra ventana de consola 
     * npm install
     * npm start
 
